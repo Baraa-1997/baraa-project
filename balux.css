@@ -419,3 +419,269 @@ body {
 .whatsapp-button:hover {
   background-color: #1da851;
 }
+
+/* Responsive Styles */
+
+/* Make nav, feature, and footer stack vertically on small screens */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .footer-branding {
+    text-align: left;
+    max-width: 100%;
+    margin-top: 24px;
+  }
+}
+
+/* Tablets and below */
+@media (max-width: 768px) {
+  .nav-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 8px;
+  }
+
+  .nav-wrapper ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  nav ul li a {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+
+  .af-feature {
+    flex-direction: column;
+    padding: 32px 10px;
+    gap: 24px;
+    margin-top: 20px;
+  }
+
+  .af-image img {
+    max-width: 90vw;
+  }
+
+  .af-text {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .product-gallery {
+    padding: 32px 8px;
+  }
+
+  .product-grid {
+    gap: 16px;
+  }
+}
+
+/* Large phones and below */
+@media (max-width: 500px) {
+  #homeheading {
+    font-size: 1.2rem;
+    padding: 0 8px;
+  }
+
+  .af-feature {
+    padding: 12px 2vw;
+    gap: 12px;
+  }
+
+  .af-text {
+    padding: 12px;
+    font-size: 0.97rem;
+  }
+
+  .my-button {
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+  }
+
+  .search-bar input {
+    width: 90vw;
+    min-width: 0;
+    padding: 9px 10px 9px 36px;
+    font-size: 15px;
+    background-size: 17px 17px;
+    background-position: 7px center;
+  }
+
+  .popup-content {
+    width: 95vw;
+    min-width: 0;
+    padding: 16px 4vw;
+    font-size: 1rem;
+  }
+
+  .footer-container {
+    padding-bottom: 18px;
+    gap: 12px;
+  }
+
+  .footer-branding h2 {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    padding: 0 2vw;
+  }
+}
+
+/* Improve touch target size for cart and social icons */
+@media (max-width: 650px) {
+  .nav-cart svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .socials a {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+}/* Responsive Styles */
+
+/* Make nav, feature, and footer stack vertically on small screens */
+@media (max-width: 900px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .footer-branding {
+    text-align: left;
+    max-width: 100%;
+    margin-top: 24px;
+  }
+}
+
+/* Tablets and below */
+@media (max-width: 768px) {
+  .nav-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 8px;
+  }
+
+  .nav-wrapper ul {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  nav ul li a {
+    padding: 12px 8px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+  }
+
+  .af-feature {
+    flex-direction: column;
+    padding: 32px 10px;
+    gap: 24px;
+    margin-top: 20px;
+  }
+
+  .af-image img {
+    max-width: 90vw;
+  }
+
+  .af-text {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .product-gallery {
+    padding: 32px 8px;
+  }
+
+  .product-grid {
+    gap: 16px;
+  }
+}
+
+/* Large phones and below */
+@media (max-width: 500px) {
+  #homeheading {
+    font-size: 1.2rem;
+    padding: 0 8px;
+  }
+
+  .af-feature {
+    padding: 12px 2vw;
+    gap: 12px;
+  }
+
+  .af-text {
+    padding: 12px;
+    font-size: 0.97rem;
+  }
+
+  .my-button {
+    padding: 10px 14px;
+    font-size: 1rem;
+  }
+
+  .search-bar {
+    margin-top: 10px;
+  }
+
+  .search-bar input {
+    width: 90vw;
+    min-width: 0;
+    padding: 9px 10px 9px 36px;
+    font-size: 15px;
+    background-size: 17px 17px;
+    background-position: 7px center;
+  }
+
+  .popup-content {
+    width: 95vw;
+    min-width: 0;
+    padding: 16px 4vw;
+    font-size: 1rem;
+  }
+
+  .footer-container {
+    padding-bottom: 18px;
+    gap: 12px;
+  }
+
+  .footer-branding h2 {
+    font-size: 24px;
+  }
+
+  .section-title {
+    font-size: 20px;
+    padding: 0 2vw;
+  }
+}
+
+/* Improve touch target size for cart and social icons */
+@media (max-width: 650px) {
+  .nav-cart svg {
+    width: 36px;
+    height: 36px;
+  }
+
+  .socials a {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+}
